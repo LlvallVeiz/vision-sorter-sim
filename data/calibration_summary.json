@@ -1,0 +1,262 @@
+{
+  "frames": 40,
+  "seed": 20261111,
+  "total": 200,
+  "per_class": {
+    "circle": {
+      "circularity": {
+        "n": 47,
+        "min": 1.248,
+        "max": 1.312,
+        "mean": 1.274,
+        "std": 0.016
+      },
+      "extent": {
+        "n": 47,
+        "min": 0.777,
+        "max": 0.786,
+        "mean": 0.783,
+        "std": 0.002
+      },
+      "aspect_ratio": {
+        "n": 47,
+        "min": 1.0,
+        "max": 1.021,
+        "mean": 1.005,
+        "std": 0.008
+      },
+      "solidity": {
+        "n": 47,
+        "min": 0.982,
+        "max": 0.991,
+        "mean": 0.988,
+        "std": 0.002
+      },
+      "hu_log_1": {
+        "n": 47,
+        "min": 0.798,
+        "max": 0.798,
+        "mean": 0.798,
+        "std": 0.0
+      },
+      "n_hull_vertices": {
+        "n": 47,
+        "min": 8.0,
+        "max": 16.0,
+        "mean": 9.021,
+        "std": 1.929
+      },
+      "min_hull_edge": {
+        "n": 47,
+        "min": 12.6,
+        "max": 28.3,
+        "mean": 20.174,
+        "std": 4.639
+      }
+    },
+    "defect": {
+      "circularity": {
+        "n": 62,
+        "min": 0.75,
+        "max": 1.232,
+        "mean": 0.98,
+        "std": 0.149
+      },
+      "extent": {
+        "n": 62,
+        "min": 0.64,
+        "max": 0.805,
+        "mean": 0.695,
+        "std": 0.033
+      },
+      "aspect_ratio": {
+        "n": 62,
+        "min": 1.0,
+        "max": 1.128,
+        "mean": 1.035,
+        "std": 0.035
+      },
+      "solidity": {
+        "n": 62,
+        "min": 0.839,
+        "max": 0.977,
+        "mean": 0.901,
+        "std": 0.044
+      },
+      "hu_log_1": {
+        "n": 62,
+        "min": 0.731,
+        "max": 0.795,
+        "mean": 0.765,
+        "std": 0.023
+      },
+      "n_hull_vertices": {
+        "n": 62,
+        "min": 6.0,
+        "max": 12.0,
+        "mean": 8.742,
+        "std": 1.367
+      },
+      "min_hull_edge": {
+        "n": 62,
+        "min": 7.8,
+        "max": 20.2,
+        "mean": 13.811,
+        "std": 2.805
+      }
+    },
+    "rectangle": {
+      "circularity": {
+        "n": 30,
+        "min": 0.715,
+        "max": 1.251,
+        "mean": 0.946,
+        "std": 0.199
+      },
+      "extent": {
+        "n": 30,
+        "min": 0.441,
+        "max": 0.91,
+        "mean": 0.598,
+        "std": 0.148
+      },
+      "aspect_ratio": {
+        "n": 30,
+        "min": 1.046,
+        "max": 1.833,
+        "mean": 1.32,
+        "std": 0.253
+      },
+      "solidity": {
+        "n": 30,
+        "min": 0.951,
+        "max": 0.978,
+        "mean": 0.968,
+        "std": 0.007
+      },
+      "hu_log_1": {
+        "n": 30,
+        "min": 0.664,
+        "max": 0.743,
+        "mean": 0.702,
+        "std": 0.023
+      },
+      "n_hull_vertices": {
+        "n": 30,
+        "min": 4.0,
+        "max": 5.0,
+        "mean": 4.167,
+        "std": 0.373
+      },
+      "min_hull_edge": {
+        "n": 30,
+        "min": 4.0,
+        "max": 54.2,
+        "mean": 30.907,
+        "std": 13.442
+      }
+    },
+    "square": {
+      "circularity": {
+        "n": 33,
+        "min": 0.806,
+        "max": 1.571,
+        "mean": 1.033,
+        "std": 0.241
+      },
+      "extent": {
+        "n": 33,
+        "min": 0.5,
+        "max": 0.906,
+        "mean": 0.63,
+        "std": 0.125
+      },
+      "aspect_ratio": {
+        "n": 33,
+        "min": 1.0,
+        "max": 1.025,
+        "mean": 1.004,
+        "std": 0.007
+      },
+      "solidity": {
+        "n": 33,
+        "min": 0.951,
+        "max": 0.988,
+        "mean": 0.968,
+        "std": 0.008
+      },
+      "hu_log_1": {
+        "n": 33,
+        "min": 0.777,
+        "max": 0.778,
+        "mean": 0.778,
+        "std": 0.0
+      },
+      "n_hull_vertices": {
+        "n": 33,
+        "min": 4.0,
+        "max": 5.0,
+        "mean": 4.091,
+        "std": 0.287
+      },
+      "min_hull_edge": {
+        "n": 33,
+        "min": 4.0,
+        "max": 58.7,
+        "mean": 41.03,
+        "std": 13.524
+      }
+    },
+    "triangle": {
+      "circularity": {
+        "n": 28,
+        "min": 0.758,
+        "max": 0.81,
+        "mean": 0.778,
+        "std": 0.013
+      },
+      "extent": {
+        "n": 28,
+        "min": 0.465,
+        "max": 0.508,
+        "mean": 0.479,
+        "std": 0.012
+      },
+      "aspect_ratio": {
+        "n": 28,
+        "min": 1.016,
+        "max": 1.177,
+        "mean": 1.082,
+        "std": 0.044
+      },
+      "solidity": {
+        "n": 28,
+        "min": 0.943,
+        "max": 0.974,
+        "mean": 0.957,
+        "std": 0.007
+      },
+      "hu_log_1": {
+        "n": 28,
+        "min": 0.715,
+        "max": 0.716,
+        "mean": 0.715,
+        "std": 0.0
+      },
+      "n_hull_vertices": {
+        "n": 28,
+        "min": 3.0,
+        "max": 3.0,
+        "mean": 3.0,
+        "std": 0.0
+      },
+      "min_hull_edge": {
+        "n": 28,
+        "min": 39.1,
+        "max": 69.3,
+        "mean": 55.075,
+        "std": 9.238
+      }
+    }
+  }
+}
