@@ -1,0 +1,2705 @@
+{
+  "dataset": "dataset",
+  "evaluation": {
+    "accuracy": 1.0,
+    "total": 300,
+    "correct": 300,
+    "confusion_matrix": {
+      "circle": {
+        "circle": 55,
+        "square": 0,
+        "rectangle": 0,
+        "triangle": 0,
+        "defect": 0
+      },
+      "square": {
+        "circle": 0,
+        "square": 37,
+        "rectangle": 0,
+        "triangle": 0,
+        "defect": 0
+      },
+      "rectangle": {
+        "circle": 0,
+        "square": 0,
+        "rectangle": 53,
+        "triangle": 0,
+        "defect": 0
+      },
+      "triangle": {
+        "circle": 0,
+        "square": 0,
+        "rectangle": 0,
+        "triangle": 58,
+        "defect": 0
+      },
+      "defect": {
+        "circle": 0,
+        "square": 0,
+        "rectangle": 0,
+        "triangle": 0,
+        "defect": 97
+      }
+    },
+    "per_class": {
+      "circle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 55,
+        "tp": 55,
+        "fp": 0,
+        "fn": 0
+      },
+      "square": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 37,
+        "tp": 37,
+        "fp": 0,
+        "fn": 0
+      },
+      "rectangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 53,
+        "tp": 53,
+        "fp": 0,
+        "fn": 0
+      },
+      "triangle": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 58,
+        "tp": 58,
+        "fp": 0,
+        "fn": 0
+      },
+      "defect": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 97,
+        "tp": 97,
+        "fp": 0,
+        "fn": 0
+      }
+    },
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "matched": 300,
+      "detected": 300,
+      "truth": 300
+    },
+    "mean_frame_ms": 49.7,
+    "frames": 60,
+    "per_frame": [
+      {
+        "frame": "frame_0000.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 59.9
+      },
+      {
+        "frame": "frame_0001.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 44.3
+      },
+      {
+        "frame": "frame_0002.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 47.6
+      },
+      {
+        "frame": "frame_0003.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.2
+      },
+      {
+        "frame": "frame_0004.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 41.5
+      },
+      {
+        "frame": "frame_0005.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.5
+      },
+      {
+        "frame": "frame_0006.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 49.9
+      },
+      {
+        "frame": "frame_0007.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 46.8
+      },
+      {
+        "frame": "frame_0008.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 45.0
+      },
+      {
+        "frame": "frame_0009.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 51.2
+      },
+      {
+        "frame": "frame_0010.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 49.6
+      },
+      {
+        "frame": "frame_0011.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 66.9
+      },
+      {
+        "frame": "frame_0012.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 44.3
+      },
+      {
+        "frame": "frame_0013.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 47.2
+      },
+      {
+        "frame": "frame_0014.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.8
+      },
+      {
+        "frame": "frame_0015.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 45.0
+      },
+      {
+        "frame": "frame_0016.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.6
+      },
+      {
+        "frame": "frame_0017.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 54.0
+      },
+      {
+        "frame": "frame_0018.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 40.2
+      },
+      {
+        "frame": "frame_0019.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 54.5
+      },
+      {
+        "frame": "frame_0020.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 55.4
+      },
+      {
+        "frame": "frame_0021.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 53.8
+      },
+      {
+        "frame": "frame_0022.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.0
+      },
+      {
+        "frame": "frame_0023.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.2
+      },
+      {
+        "frame": "frame_0024.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 41.9
+      },
+      {
+        "frame": "frame_0025.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 39.9
+      },
+      {
+        "frame": "frame_0026.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 57.5
+      },
+      {
+        "frame": "frame_0027.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 42.6
+      },
+      {
+        "frame": "frame_0028.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 51.2
+      },
+      {
+        "frame": "frame_0029.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 42.0
+      },
+      {
+        "frame": "frame_0030.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 50.4
+      },
+      {
+        "frame": "frame_0031.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 58.6
+      },
+      {
+        "frame": "frame_0032.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 48.7
+      },
+      {
+        "frame": "frame_0033.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 46.6
+      },
+      {
+        "frame": "frame_0034.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 51.4
+      },
+      {
+        "frame": "frame_0035.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 37.1
+      },
+      {
+        "frame": "frame_0036.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 43.5
+      },
+      {
+        "frame": "frame_0037.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 47.5
+      },
+      {
+        "frame": "frame_0038.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 48.9
+      },
+      {
+        "frame": "frame_0039.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 40.3
+      },
+      {
+        "frame": "frame_0040.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 65.3
+      },
+      {
+        "frame": "frame_0041.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 38.4
+      },
+      {
+        "frame": "frame_0042.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 54.9
+      },
+      {
+        "frame": "frame_0043.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 51.2
+      },
+      {
+        "frame": "frame_0044.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 54.1
+      },
+      {
+        "frame": "frame_0045.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 51.1
+      },
+      {
+        "frame": "frame_0046.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 44.4
+      },
+      {
+        "frame": "frame_0047.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 48.4
+      },
+      {
+        "frame": "frame_0048.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 55.5
+      },
+      {
+        "frame": "frame_0049.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 60.2
+      },
+      {
+        "frame": "frame_0050.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 52.7
+      },
+      {
+        "frame": "frame_0051.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 50.6
+      },
+      {
+        "frame": "frame_0052.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 67.7
+      },
+      {
+        "frame": "frame_0053.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 46.2
+      },
+      {
+        "frame": "frame_0054.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 61.6
+      },
+      {
+        "frame": "frame_0055.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 51.7
+      },
+      {
+        "frame": "frame_0056.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 43.5
+      },
+      {
+        "frame": "frame_0057.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 39.2
+      },
+      {
+        "frame": "frame_0058.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 39.2
+      },
+      {
+        "frame": "frame_0059.png",
+        "n_truth": 5,
+        "n_detected": 5,
+        "n_matched": 5,
+        "elapsed_ms": 45.3
+      }
+    ]
+  },
+  "conveyor": {
+    "total_items": 240,
+    "duration_s": 240.0,
+    "items_per_min": 60.0,
+    "lane_counts": {
+      "accept": 123,
+      "reject": 67,
+      "divert": 50
+    },
+    "false_accepts": 0,
+    "false_rejects": 0,
+    "unknown": 0,
+    "error_rate": 0.0,
+    "accuracy": 1.0,
+    "mean_inspect_ms": 12.8,
+    "events": [
+      {
+        "index": 0,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 0.0
+      },
+      {
+        "index": 1,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 1.0
+      },
+      {
+        "index": 2,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 2.0
+      },
+      {
+        "index": 3,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 3.0
+      },
+      {
+        "index": 4,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 4.0
+      },
+      {
+        "index": 5,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 5.0
+      },
+      {
+        "index": 6,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 6.0
+      },
+      {
+        "index": 7,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 7.0
+      },
+      {
+        "index": 8,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 8.0
+      },
+      {
+        "index": 9,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 9.0
+      },
+      {
+        "index": 10,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 10.0
+      },
+      {
+        "index": 11,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 11.0
+      },
+      {
+        "index": 12,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 12.0
+      },
+      {
+        "index": 13,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 13.0
+      },
+      {
+        "index": 14,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 14.0
+      },
+      {
+        "index": 15,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 15.0
+      },
+      {
+        "index": 16,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 16.0
+      },
+      {
+        "index": 17,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 17.0
+      },
+      {
+        "index": 18,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 18.0
+      },
+      {
+        "index": 19,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 19.0
+      },
+      {
+        "index": 20,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 20.0
+      },
+      {
+        "index": 21,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 21.0
+      },
+      {
+        "index": 22,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 22.0
+      },
+      {
+        "index": 23,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 23.0
+      },
+      {
+        "index": 24,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 24.0
+      },
+      {
+        "index": 25,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 25.0
+      },
+      {
+        "index": 26,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 26.0
+      },
+      {
+        "index": 27,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 27.0
+      },
+      {
+        "index": 28,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 28.0
+      },
+      {
+        "index": 29,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 29.0
+      },
+      {
+        "index": 30,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 30.0
+      },
+      {
+        "index": 31,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 31.0
+      },
+      {
+        "index": 32,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 32.0
+      },
+      {
+        "index": 33,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 33.0
+      },
+      {
+        "index": 34,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 34.0
+      },
+      {
+        "index": 35,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 35.0
+      },
+      {
+        "index": 36,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 36.0
+      },
+      {
+        "index": 37,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 37.0
+      },
+      {
+        "index": 38,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 38.0
+      },
+      {
+        "index": 39,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 39.0
+      },
+      {
+        "index": 40,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 40.0
+      },
+      {
+        "index": 41,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 41.0
+      },
+      {
+        "index": 42,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 42.0
+      },
+      {
+        "index": 43,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 43.0
+      },
+      {
+        "index": 44,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 44.0
+      },
+      {
+        "index": 45,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 45.0
+      },
+      {
+        "index": 46,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 46.0
+      },
+      {
+        "index": 47,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 47.0
+      },
+      {
+        "index": 48,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 48.0
+      },
+      {
+        "index": 49,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 49.0
+      },
+      {
+        "index": 50,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 50.0
+      },
+      {
+        "index": 51,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 51.0
+      },
+      {
+        "index": 52,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 52.0
+      },
+      {
+        "index": 53,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 53.0
+      },
+      {
+        "index": 54,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 54.0
+      },
+      {
+        "index": 55,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 55.0
+      },
+      {
+        "index": 56,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 56.0
+      },
+      {
+        "index": 57,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 57.0
+      },
+      {
+        "index": 58,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 58.0
+      },
+      {
+        "index": 59,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 59.0
+      },
+      {
+        "index": 60,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 60.0
+      },
+      {
+        "index": 61,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 61.0
+      },
+      {
+        "index": 62,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 62.0
+      },
+      {
+        "index": 63,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 63.0
+      },
+      {
+        "index": 64,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 64.0
+      },
+      {
+        "index": 65,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 65.0
+      },
+      {
+        "index": 66,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 66.0
+      },
+      {
+        "index": 67,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 67.0
+      },
+      {
+        "index": 68,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 68.0
+      },
+      {
+        "index": 69,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 69.0
+      },
+      {
+        "index": 70,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 70.0
+      },
+      {
+        "index": 71,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 71.0
+      },
+      {
+        "index": 72,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 72.0
+      },
+      {
+        "index": 73,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 73.0
+      },
+      {
+        "index": 74,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 74.0
+      },
+      {
+        "index": 75,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 75.0
+      },
+      {
+        "index": 76,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 76.0
+      },
+      {
+        "index": 77,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 77.0
+      },
+      {
+        "index": 78,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 78.0
+      },
+      {
+        "index": 79,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 79.0
+      },
+      {
+        "index": 80,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 80.0
+      },
+      {
+        "index": 81,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 81.0
+      },
+      {
+        "index": 82,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 82.0
+      },
+      {
+        "index": 83,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 83.0
+      },
+      {
+        "index": 84,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 84.0
+      },
+      {
+        "index": 85,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 85.0
+      },
+      {
+        "index": 86,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 86.0
+      },
+      {
+        "index": 87,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 87.0
+      },
+      {
+        "index": 88,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 88.0
+      },
+      {
+        "index": 89,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 89.0
+      },
+      {
+        "index": 90,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 90.0
+      },
+      {
+        "index": 91,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 91.0
+      },
+      {
+        "index": 92,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 92.0
+      },
+      {
+        "index": 93,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 93.0
+      },
+      {
+        "index": 94,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 94.0
+      },
+      {
+        "index": 95,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 95.0
+      },
+      {
+        "index": 96,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 96.0
+      },
+      {
+        "index": 97,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 97.0
+      },
+      {
+        "index": 98,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 98.0
+      },
+      {
+        "index": 99,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 99.0
+      },
+      {
+        "index": 100,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 100.0
+      },
+      {
+        "index": 101,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 101.0
+      },
+      {
+        "index": 102,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 102.0
+      },
+      {
+        "index": 103,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 103.0
+      },
+      {
+        "index": 104,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 104.0
+      },
+      {
+        "index": 105,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 105.0
+      },
+      {
+        "index": 106,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 106.0
+      },
+      {
+        "index": 107,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 107.0
+      },
+      {
+        "index": 108,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 108.0
+      },
+      {
+        "index": 109,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 109.0
+      },
+      {
+        "index": 110,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 110.0
+      },
+      {
+        "index": 111,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 111.0
+      },
+      {
+        "index": 112,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 112.0
+      },
+      {
+        "index": 113,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 113.0
+      },
+      {
+        "index": 114,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 114.0
+      },
+      {
+        "index": 115,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 115.0
+      },
+      {
+        "index": 116,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 116.0
+      },
+      {
+        "index": 117,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 117.0
+      },
+      {
+        "index": 118,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 118.0
+      },
+      {
+        "index": 119,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 119.0
+      },
+      {
+        "index": 120,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 120.0
+      },
+      {
+        "index": 121,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 121.0
+      },
+      {
+        "index": 122,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 122.0
+      },
+      {
+        "index": 123,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 123.0
+      },
+      {
+        "index": 124,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 124.0
+      },
+      {
+        "index": 125,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 125.0
+      },
+      {
+        "index": 126,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 126.0
+      },
+      {
+        "index": 127,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 127.0
+      },
+      {
+        "index": 128,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 128.0
+      },
+      {
+        "index": 129,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 129.0
+      },
+      {
+        "index": 130,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 130.0
+      },
+      {
+        "index": 131,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 131.0
+      },
+      {
+        "index": 132,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 132.0
+      },
+      {
+        "index": 133,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 133.0
+      },
+      {
+        "index": 134,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 134.0
+      },
+      {
+        "index": 135,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 135.0
+      },
+      {
+        "index": 136,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 136.0
+      },
+      {
+        "index": 137,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 137.0
+      },
+      {
+        "index": 138,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 138.0
+      },
+      {
+        "index": 139,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 139.0
+      },
+      {
+        "index": 140,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 140.0
+      },
+      {
+        "index": 141,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 141.0
+      },
+      {
+        "index": 142,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 142.0
+      },
+      {
+        "index": 143,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 143.0
+      },
+      {
+        "index": 144,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 144.0
+      },
+      {
+        "index": 145,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 145.0
+      },
+      {
+        "index": 146,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 146.0
+      },
+      {
+        "index": 147,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 147.0
+      },
+      {
+        "index": 148,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 148.0
+      },
+      {
+        "index": 149,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 149.0
+      },
+      {
+        "index": 150,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 150.0
+      },
+      {
+        "index": 151,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 151.0
+      },
+      {
+        "index": 152,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 152.0
+      },
+      {
+        "index": 153,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 153.0
+      },
+      {
+        "index": 154,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 154.0
+      },
+      {
+        "index": 155,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 155.0
+      },
+      {
+        "index": 156,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 156.0
+      },
+      {
+        "index": 157,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 157.0
+      },
+      {
+        "index": 158,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 158.0
+      },
+      {
+        "index": 159,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 159.0
+      },
+      {
+        "index": 160,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 160.0
+      },
+      {
+        "index": 161,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 161.0
+      },
+      {
+        "index": 162,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 162.0
+      },
+      {
+        "index": 163,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 163.0
+      },
+      {
+        "index": 164,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 164.0
+      },
+      {
+        "index": 165,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 165.0
+      },
+      {
+        "index": 166,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 166.0
+      },
+      {
+        "index": 167,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 167.0
+      },
+      {
+        "index": 168,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 168.0
+      },
+      {
+        "index": 169,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 169.0
+      },
+      {
+        "index": 170,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 170.0
+      },
+      {
+        "index": 171,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 171.0
+      },
+      {
+        "index": 172,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 172.0
+      },
+      {
+        "index": 173,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 173.0
+      },
+      {
+        "index": 174,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 174.0
+      },
+      {
+        "index": 175,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 175.0
+      },
+      {
+        "index": 176,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 176.0
+      },
+      {
+        "index": 177,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 177.0
+      },
+      {
+        "index": 178,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 178.0
+      },
+      {
+        "index": 179,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 179.0
+      },
+      {
+        "index": 180,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 180.0
+      },
+      {
+        "index": 181,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 181.0
+      },
+      {
+        "index": 182,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 182.0
+      },
+      {
+        "index": 183,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 183.0
+      },
+      {
+        "index": 184,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 184.0
+      },
+      {
+        "index": 185,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 185.0
+      },
+      {
+        "index": 186,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 186.0
+      },
+      {
+        "index": 187,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 187.0
+      },
+      {
+        "index": 188,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 188.0
+      },
+      {
+        "index": 189,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 189.0
+      },
+      {
+        "index": 190,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 190.0
+      },
+      {
+        "index": 191,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 191.0
+      },
+      {
+        "index": 192,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 192.0
+      },
+      {
+        "index": 193,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 193.0
+      },
+      {
+        "index": 194,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 194.0
+      },
+      {
+        "index": 195,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 195.0
+      },
+      {
+        "index": 196,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 196.0
+      },
+      {
+        "index": 197,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 197.0
+      },
+      {
+        "index": 198,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 198.0
+      },
+      {
+        "index": 199,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 199.0
+      },
+      {
+        "index": 200,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 200.0
+      },
+      {
+        "index": 201,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 201.0
+      },
+      {
+        "index": 202,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 202.0
+      },
+      {
+        "index": 203,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 203.0
+      },
+      {
+        "index": 204,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 204.0
+      },
+      {
+        "index": 205,
+        "true_label": "rectangle",
+        "predicted_label": "rectangle",
+        "lane": "divert",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 205.0
+      },
+      {
+        "index": 206,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 206.0
+      },
+      {
+        "index": 207,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 207.0
+      },
+      {
+        "index": 208,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 208.0
+      },
+      {
+        "index": 209,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 209.0
+      },
+      {
+        "index": 210,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 210.0
+      },
+      {
+        "index": 211,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 211.0
+      },
+      {
+        "index": 212,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 212.0
+      },
+      {
+        "index": 213,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 213.0
+      },
+      {
+        "index": 214,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 214.0
+      },
+      {
+        "index": 215,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 215.0
+      },
+      {
+        "index": 216,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 216.0
+      },
+      {
+        "index": 217,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 217.0
+      },
+      {
+        "index": 218,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 218.0
+      },
+      {
+        "index": 219,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 219.0
+      },
+      {
+        "index": 220,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 220.0
+      },
+      {
+        "index": 221,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 221.0
+      },
+      {
+        "index": 222,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 222.0
+      },
+      {
+        "index": 223,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 223.0
+      },
+      {
+        "index": 224,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 224.0
+      },
+      {
+        "index": 225,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 225.0
+      },
+      {
+        "index": 226,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 226.0
+      },
+      {
+        "index": 227,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 227.0
+      },
+      {
+        "index": 228,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 228.0
+      },
+      {
+        "index": 229,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 229.0
+      },
+      {
+        "index": 230,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 230.0
+      },
+      {
+        "index": 231,
+        "true_label": "circle",
+        "predicted_label": "circle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 231.0
+      },
+      {
+        "index": 232,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 232.0
+      },
+      {
+        "index": 233,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 233.0
+      },
+      {
+        "index": 234,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 234.0
+      },
+      {
+        "index": 235,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 235.0
+      },
+      {
+        "index": 236,
+        "true_label": "triangle",
+        "predicted_label": "triangle",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 236.0
+      },
+      {
+        "index": 237,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 237.0
+      },
+      {
+        "index": 238,
+        "true_label": "square",
+        "predicted_label": "square",
+        "lane": "accept",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 238.0
+      },
+      {
+        "index": 239,
+        "true_label": "defect",
+        "predicted_label": "defect",
+        "lane": "reject",
+        "confidence": 1.0,
+        "correct": true,
+        "time_s": 239.0
+      }
+    ]
+  }
+}
