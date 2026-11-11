@@ -1,0 +1,82 @@
+{
+  "image": "frame_0049.png",
+  "width": 640,
+  "height": 480,
+  "objects": [
+    {
+      "label": "defect",
+      "cx": 411.8,
+      "cy": 396.5,
+      "size": 36.7,
+      "rotation_deg": 147.1,
+      "aspect": 1.0,
+      "defect_kind": "chip",
+      "bbox": [
+        375,
+        359,
+        448,
+        433
+      ]
+    },
+    {
+      "label": "rectangle",
+      "cx": 104.7,
+      "cy": 180.3,
+      "size": 29.2,
+      "rotation_deg": 298.8,
+      "aspect": 1.82,
+      "defect_kind": "",
+      "bbox": [
+        71,
+        147,
+        138,
+        213
+      ]
+    },
+    {
+      "label": "rectangle",
+      "cx": 137.4,
+      "cy": 66.8,
+      "size": 29.5,
+      "rotation_deg": 46.2,
+      "aspect": 2.15,
+      "defect_kind": "",
+      "bbox": [
+        104,
+        34,
+        170,
+        99
+      ]
+    },
+    {
+      "label": "rectangle",
+      "cx": 434.6,
+      "cy": 140.1,
+      "size": 39.1,
+      "rotation_deg": 244.7,
+      "aspect": 1.61,
+      "defect_kind": "",
+      "bbox": [
+        388,
+        94,
+        480,
+        186
+      ]
+    },
+    {
+      "label": "square",
+      "cx": 53.2,
+      "cy": 343.5,
+      "size": 41.7,
+      "rotation_deg": 356.3,
+      "aspect": 1.0,
+      "defect_kind": "",
+      "bbox": [
+        11,
+        301,
+        94,
+        385
+      ]
+    }
+  ]
+}

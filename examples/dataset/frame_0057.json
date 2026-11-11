@@ -1,0 +1,82 @@
+{
+  "image": "frame_0057.png",
+  "width": 640,
+  "height": 480,
+  "objects": [
+    {
+      "label": "square",
+      "cx": 500.7,
+      "cy": 235.6,
+      "size": 31.1,
+      "rotation_deg": 211.4,
+      "aspect": 1.0,
+      "defect_kind": "",
+      "bbox": [
+        469,
+        204,
+        531,
+        266
+      ]
+    },
+    {
+      "label": "rectangle",
+      "cx": 116.7,
+      "cy": 276.5,
+      "size": 24.4,
+      "rotation_deg": 40.5,
+      "aspect": 1.8,
+      "defect_kind": "",
+      "bbox": [
+        88,
+        248,
+        144,
+        304
+      ]
+    },
+    {
+      "label": "defect",
+      "cx": 355.1,
+      "cy": 244.8,
+      "size": 38.8,
+      "rotation_deg": 105.2,
+      "aspect": 1.0,
+      "defect_kind": "irregular",
+      "bbox": [
+        316,
+        205,
+        393,
+        283
+      ]
+    },
+    {
+      "label": "triangle",
+      "cx": 518.3,
+      "cy": 132.4,
+      "size": 28.0,
+      "rotation_deg": 249.8,
+      "aspect": 1.0,
+      "defect_kind": "",
+      "bbox": [
+        490,
+        104,
+        546,
+        160
+      ]
+    },
+    {
+      "label": "square",
+      "cx": 374.8,
+      "cy": 95.5,
+      "size": 24.2,
+      "rotation_deg": 326.3,
+      "aspect": 1.0,
+      "defect_kind": "",
+      "bbox": [
+        350,
+        71,
+        398,
+        119
+      ]
+    }
+  ]
+}

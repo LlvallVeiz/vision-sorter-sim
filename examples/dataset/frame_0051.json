@@ -1,0 +1,82 @@
+{
+  "image": "frame_0051.png",
+  "width": 640,
+  "height": 480,
+  "objects": [
+    {
+      "label": "defect",
+      "cx": 97.2,
+      "cy": 191.9,
+      "size": 37.5,
+      "rotation_deg": 318.7,
+      "aspect": 1.0,
+      "defect_kind": "irregular",
+      "bbox": [
+        59,
+        154,
+        134,
+        229
+      ]
+    },
+    {
+      "label": "rectangle",
+      "cx": 479.9,
+      "cy": 145.4,
+      "size": 28.7,
+      "rotation_deg": 334.5,
+      "aspect": 1.79,
+      "defect_kind": "",
+      "bbox": [
+        447,
+        112,
+        512,
+        178
+      ]
+    },
+    {
+      "label": "rectangle",
+      "cx": 116.5,
+      "cy": 279.2,
+      "size": 22.3,
+      "rotation_deg": 300.7,
+      "aspect": 1.98,
+      "defect_kind": "",
+      "bbox": [
+        91,
+        254,
+        141,
+        304
+      ]
+    },
+    {
+      "label": "defect",
+      "cx": 231.9,
+      "cy": 338.1,
+      "size": 24.7,
+      "rotation_deg": 267.4,
+      "aspect": 1.0,
+      "defect_kind": "notch",
+      "bbox": [
+        207,
+        313,
+        256,
+        362
+      ]
+    },
+    {
+      "label": "circle",
+      "cx": 109.8,
+      "cy": 383.0,
+      "size": 40.0,
+      "rotation_deg": 297.0,
+      "aspect": 1.0,
+      "defect_kind": "",
+      "bbox": [
+        69,
+        343,
+        149,
+        423
+      ]
+    }
+  ]
+}
